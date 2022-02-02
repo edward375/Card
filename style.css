@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+}
+.cardContainer{
+    background-color: #cfd5ea;
+    width: 100%;
+    height: 100vh;
+}
+
+.card{
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    margin: 20px auto 0 auto;
+    position: relative;
+    top: 50px;
+    border-radius: 3%;
+    background-image: url("img/beach-gb3ef46d9d_640.jpg");
+}
+
+.valueCard{
+    width: 550px;
+    height: 400px;
+    background-color: #ffffff;
+    margin: -50px auto 0 auto;
+    border-radius: 2%;
+}
+
+.imgLogo{
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 10px;
+    padding-inline: 10px;
+}
+
+.cardPersonDate{
+    position: relative;
+    display: flex;
+    top: 70px;
+    padding-inline: 10px;
+}
+
+.numberCard{
+    position: absolute;
+    top: 78px;
+    border: 1px white solid;
+    width: 370px;
+    height: 30px;
+}
+
+.cardNumber{
+    padding-top: 180px;
+    flex-direction: column;
+    display: grid;
+    width: 500px;
+}
+.cardHolder{
+    border: 1px white solid;
+    width: 200px;
+    height: 30px;
+}
+.cardExpires{
+    border: 1px white solid;
+    width: 200px;
+    height: 30px;
+}
+
+.namePerson{
+    padding-top: 10px;
+    flex-direction: column;
+    display: grid;
+    width: 500px;
+}
+
+.spanDate{
+    justify-content: space-between;
+    display: flex;
+    padding-top: 20px;
+}
+
+.inputDate{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: #195986;
+}
+
+.submit{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}
+

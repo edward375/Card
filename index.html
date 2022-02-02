@@ -2,9 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Card</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="cardContainer">
+    <div class="card">
+        <div class="imgLogo">
+            <img src="img/network-g14694924f_640.jpg" alt="##">
+            <img src="img/Visa_Inc._logo.svg.png" alt="##">
+        </div>
+        <div class="numberCard">
 
+        </div>
+        <div class="cardPersonDate">
+            <div class="cardHolder">
+                <span>Card Holder</span>
+
+            </div>
+            <div class="cardExpires">
+                <span>Expires</span>
+
+            </div>
+        </div>
+    </div>
+    <div class="valueCard">
+
+            <div class="cardNumber">
+                <span>Card Number</span>
+                <input type="text" placeholder="#### #### #### ####">
+            </div>
+            <div class="namePerson">
+                <span>Card Holder</span>
+                <input type="text">
+            </div>
+            <div class="expirationDate">
+                <div class="spanDate">
+                    <span>Expiration Date</span>
+                    <span>CVV</span>
+                </div>
+                <div class="inputDate">
+                    <input type="month" class="month">
+                    <input type="number" min="2020" max="2030" class="year">
+                    <input type="text" class="cvv">
+                </div>
+                <div class="submit">
+                    <button>Submit</button>
+                </div>
+
+            </div>
+
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
 </body>
 </html>
