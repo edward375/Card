@@ -15,7 +15,7 @@ body{
     position: relative;
     top: 50px;
     border-radius: 3%;
-    background-image: url("img/beach-gb3ef46d9d_640.jpg");
+    background-image: url("img/death-g3a5a81b27_640.jpg");
 }
 
 .valueCard{
@@ -43,27 +43,31 @@ body{
 
 .numberCard{
     position: absolute;
-    top: 78px;
-    border: 1px white solid;
+    top: 60px;
+    border: 2px white solid;
     width: 370px;
     height: 30px;
+    margin: 13px;
+    border-radius: 7%;
+    color: white;
 }
 
 .cardNumber{
-    padding-top: 180px;
-    flex-direction: column;
-    display: grid;
+    padding-top: 150px;
     width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 .cardHolder{
     border: 1px white solid;
     width: 200px;
-    height: 30px;
+    height: 45px;
 }
 .cardExpires{
     border: 1px white solid;
     width: 200px;
-    height: 30px;
+    height: 45px;
 }
 
 .namePerson{
@@ -71,6 +75,7 @@ body{
     flex-direction: column;
     display: grid;
     width: 500px;
+    margin: auto;
 }
 
 .spanDate{
@@ -85,11 +90,21 @@ body{
     justify-content: space-around;
 }
 
+.inputDate>input{
+    width: 15%;
+    height: 30px;
+}
+
+
+
+
 button{
-    width: 400px;
+    width: 450px;
     display: flex;
     justify-content: center;
     background-color: #195986;
+    height: 40px;
+    border-radius: 4%;
 }
 
 .submit{
@@ -101,5 +116,11 @@ button{
 img{
     height: 50px;
     width: 50px;
+}
+
+input{
+    border-color: #8bbcdf;
+    border-radius: 5%;
+    height: 26px;
 }
 
