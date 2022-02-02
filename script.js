@@ -7,15 +7,26 @@ const month = document.querySelector(".month")
 const year = document.querySelector(".year")
 const cvv = document.querySelector(".cvv")
 
+numberCard.textContent = "#### #### #### ####"
+cardNumber.addEventListener("input", ev => {
+    // console.log(ev.target.value);
+    const valueCardNumber = ev.target.value
+    console.log(ev.target.value);
 
-cardNumber.addEventListener("input", ev =>{
-    // console.log(ev.target.value);
-    const arr = ev.target.value
-    // console.log(ev.target.value);
-    if (arr.length){
-        const valueNumber =`${funInp(arr[0])}${funInp(arr[1])}${funInp(arr[2])}${funInp(arr[3])} ${funInp(arr[4])}${funInp(arr[5])}${funInp(arr[6])}${funInp(arr[7])} ${funInp(arr[8])}${funInp(arr[9])}${funInp(arr[10])}${funInp(arr[11])} ${funInp(arr[12])}${funInp(arr[13])}${funInp(arr[14])}${funInp(arr[15])}`
-        // console.log(valueNumber);
-        return numberCard.innerHTML = valueNumber
+    for (let i = 0; i < valueCardNumber.length; i++) {
+        let a = valueCardNumber[i];
+        numberCard.textContent = numberCard.textContent + "array[" + i + "].value= "
+            + a.value + " ";
+        console.log(valueCardNumber[i], "valoarea input");
+        console.log(numberCard.textContent, "valoarea care trebie sa fie adaugata");
+
     }
+
+    document.getElementById("par").innerHTML = numberCard.value;
+    document.getElementById("po").innerHTML = "input";
 })
-const funInp = (num) => num ? num : ' '
+    // if (arr.length){
+    //     // const valueNumber =`${arr[0]}${arr[1]}${arr[2]}${arr[3]} ${arr[4]}${arr[5]}${arr[6]}${arr[7]} ${arr[8]}${arr[9]}${arr[10]}${arr[11]} ${arr[12]}${arr[13]}${arr[14]}${arr[15]}`
+    //     // console.log(valueNumber);
+    //     return numberCard.textContent = valueNumber
+    // }
