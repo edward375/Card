@@ -63,11 +63,13 @@ body{
     border: 1px white solid;
     width: 200px;
     height: 45px;
+    color: white;
 }
 .cardExpires{
     border: 1px white solid;
     width: 200px;
     height: 45px;
+    color: white;
 }
 
 .namePerson{
